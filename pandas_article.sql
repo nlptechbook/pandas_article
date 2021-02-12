@@ -1,4 +1,4 @@
--- Run this script in an SQL tool such as Oracle SQLPlus or Oracle SQL Developer to create database objects for the article examples 
+-- Run this script in an SQL tool such as Oracle SQL*Plus or Oracle SQL Developer to create database objects for the article examples 
 -- Uncomment the following three DROP TABLE commands when re-running the script
  
 -- DROP TABLE details;
@@ -53,7 +53,7 @@ COMMIT;
 -- the stocks example
 
 CREATE TABLE stocks(
- dt VARCHAR2(10),
+ dt DATE,
  symbol VARCHAR2(10),
  price NUMBER
 ); 
